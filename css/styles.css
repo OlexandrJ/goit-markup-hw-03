@@ -39,6 +39,10 @@ a {
     cursor: pointer;
 }
 
+img {
+    display: block;
+}
+
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -47,9 +51,13 @@ a {
 .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
+    margin-right: 76px;
+    display: flex;
+    align-items: center;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-weight: 800;
@@ -58,6 +66,12 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .studio {
@@ -97,6 +111,12 @@ a {
     font-style: normal;
 }
 
+.header-adress {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .adress-link {
     font-weight: 400;
     font-size: 16px;
@@ -134,6 +154,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    width: 496px;
 }
 
 .hero-btn {
@@ -145,6 +166,9 @@ a {
     text-align: center;
     color: #FFFFFF;
     background: #4D5AE5;
+    width: 169px;
+    height: 56px;
+    
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -170,6 +194,7 @@ a {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    padding-bottom: 72px;
 }
 
 .advantages {
@@ -177,9 +202,13 @@ a {
 }
 
 .advantages-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 .advantages-item {
+    width: 264px;
 }
 
 .advantages-title {
@@ -212,15 +241,19 @@ a {
         text-align: center;
         text-transform: capitalize;
         color: #2E2F42;
+        padding-bottom: 72px;
 }
 
-.doing-list {}
+.doing-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
 
 .doing-item {}
 
 .team {
     background-color: #F4F4FD;
-    margin-bottom: 120px;
 }
 
 .team-title {
@@ -232,9 +265,16 @@ a {
         text-align: center;
         text-transform: capitalize;
         color: #2E2F42;
+        padding-bottom: 72px;
+        padding-top: 120px;
 }
 
-.team-list {}
+.team-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 120px;
+}
 
 .team-item {
     background-color: #FFFFFF
@@ -272,6 +312,8 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+        width: 264px;
+        padding-top: 16px;
 }
 
 .portfolio-but {
