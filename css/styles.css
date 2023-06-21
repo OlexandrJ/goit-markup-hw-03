@@ -10,11 +10,23 @@
     color: #434455;
     background-color: #FFFFFF;
 }
+
+h1,h2,h3,h4,h5,h6, p {
+    margin: 0;
+}
+
 .list,
 ul,
 ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
+* {
+    box-sizing: content-box;
+}
+
 .link,
 a {
      text-decoration: none;
@@ -27,7 +39,15 @@ a {
     cursor: pointer;
 }
 
-.header {}
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -48,6 +68,8 @@ a {
         color: var(--bg-team);
 }
 .nav { 
+    display: flex;
+    align-items: center;
 }
 
 .header-item {
@@ -89,8 +111,19 @@ a {
 
 .section {}
 
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .hero {
     background-color: #2E2F42;
+    padding-top: 188px;
+        padding-bottom: 292px;
+        margin-bottom: 120px;
 }
 
 .hero-title {
@@ -138,6 +171,11 @@ a {
     text-transform: capitalize;
     color: #2E2F42;
 }
+
+.advantages {
+    margin-bottom: 120px;
+}
+
 .advantages-list {
 
 }
@@ -161,7 +199,9 @@ a {
         color: #434455;
 }
 
-.doing {}
+.doing {
+    margin-bottom: 120px;
+}
 
 .doing-title {
         font-family: 'Roboto';
@@ -179,7 +219,8 @@ a {
 .doing-item {}
 
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    margin-bottom: 120px;
 }
 
 .team-title {
@@ -220,6 +261,8 @@ a {
 .footer {
     background-color: #2E2F42;
     text-decoration: none;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 }
 
 .footer-description {
