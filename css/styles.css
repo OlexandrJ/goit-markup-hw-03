@@ -295,7 +295,8 @@ img {
 }
 
 .team-item {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-name {
@@ -305,6 +306,11 @@ img {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+}
+
+.team-content {
+    padding: 32px 16px;
+    background-color: #FFFFFF;
 }
 
 .team-position {
