@@ -23,10 +23,6 @@ ol {
     padding: 0;
 }
 
-* {
-    box-sizing: content-box;
-}
-
 .link,
 a {
      text-decoration: none;
@@ -43,9 +39,23 @@ img {
     display: block;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container {
@@ -155,6 +165,7 @@ img {
     text-align: center;
     color: #FFFFFF;
     width: 496px;
+    margin: 0 auto;
     margin-bottom: 48px;
 }
 
@@ -167,11 +178,13 @@ img {
     text-align: center;
     color: #FFFFFF;
     background: #4D5AE5;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     padding: 16px 32px;
     border-radius: 4px;
-    border: 0;   
+    border: 0;
+    margin: 0 auto;
+    display: block;
 }
 
 .hero-btn:hover,
@@ -217,11 +230,11 @@ img {
 }
 
 .advantages-title {
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 1.2;
-                    letter-spacing: 0.02em;
-                    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .advantages-desc {
@@ -336,6 +349,17 @@ img {
         border: 0;
 }
 
+.portfolio-img {
+}
+
+.cart-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    border: 1px solid #E7E9FC;
+    border-top: 0;
+}
+
 .but-list {
         padding-top: 96px;
         padding-bottom: 72px;
@@ -354,7 +378,6 @@ img {
 }
 
 .cart {
-    border: 1px solid #E7E9FC;
 }
 
 .portfolio-but:hover {
