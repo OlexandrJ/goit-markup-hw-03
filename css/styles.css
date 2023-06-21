@@ -349,7 +349,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 30px;
+    gap: 48px 24px;
     padding-bottom: 120px;
 }
 
