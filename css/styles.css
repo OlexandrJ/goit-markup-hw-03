@@ -350,6 +350,11 @@ margin-right: 24px;
         padding-top: 16px;
 }
 
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .portfolio-but {
         font-family: "Roboto", sans-serif;
         font-style: normal;
@@ -378,11 +383,11 @@ margin-right: 24px;
 
 .but-list {
         padding-top: 96px;
-        padding-bottom: 72px;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 24px;
+        margin-bottom: 72px
 }
 
 .tip-list {
