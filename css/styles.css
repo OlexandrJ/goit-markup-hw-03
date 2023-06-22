@@ -40,16 +40,16 @@ img {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 .header {
@@ -78,6 +78,11 @@ img {
     color: #4D5AE5;
 }
 
+.logo-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .header-list {
     display: flex;
     align-items: center;
@@ -103,6 +108,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--bg-black);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-link {
@@ -133,6 +140,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-text);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .adress-link:hover,
 .adress-link:focus {
@@ -242,6 +251,7 @@ margin-right: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .advantages-desc {
