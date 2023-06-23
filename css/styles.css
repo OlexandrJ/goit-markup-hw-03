@@ -75,6 +75,18 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
 }
+.logo-futer {
+    display: flex;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
 
 .logo-link {
     display: inline-block;
@@ -384,7 +396,6 @@ img {
 }
 
 .but-list {
-        padding-top: 96px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -397,7 +408,6 @@ img {
     flex-wrap: wrap;
     align-items: center;
     gap: 48px 24px;
-    padding-bottom: 120px;
 }
 
 .cart {
